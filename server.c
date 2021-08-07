@@ -12,11 +12,7 @@
 #include <fcntl.h>
 #include "DataStructures.c"
 #define PORT 55769
-/*Problem : while executing the deposit and withdraw function for a user,First time these functions works fine ,the very next time when it takes userchoice, then it calls the client close function,irrespective of user choice.*/
-//you check this by entering username : ayushi and password : ayushi
-//Depoist function line no. 290
-//Withdraw function line no.346
-//normal_opeartions function line no. 489
+
 
 struct communication{
     char message[1024];
